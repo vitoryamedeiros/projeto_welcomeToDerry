@@ -1,0 +1,196 @@
+@media (max-width: 600px) {
+
+    /* ----- LIGHT MODE -----*/
+    .navbar{
+        padding: 20px;
+    }
+
+    .nav-text{
+        font-size: 1.2rem;
+    }
+
+    .navbar img{
+        width: 80px;
+        position: relative;
+        left: -121px;
+    }
+
+    .navbar button{
+        position: relative;
+        right: -120px;
+    
+    }
+
+    .section-1 .title{
+        width: 370px;
+        height: 150px;
+        top: 10px;
+    }
+
+    .pennywise-desktop{
+        display: none;
+    }
+
+    .pennywise-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        bottom: -100px;
+
+    }
+
+    .section-1 .arrow-donw{
+        display: none;
+    }
+
+    .section-2 iframe{
+        position: relative;
+        top: -103px;  
+        width: 390px;
+        height: 230px;
+    }
+
+    .jorge{
+        position: relative;
+        height: 195px;
+        width: 195px;
+        top: -127px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 20px;
+        font-size: .7rem;
+        bottom: 0px;
+    }
+
+    /* ----- DARK MODE -----*/
+    .section-1.active{
+        background-image: url(/projeto_welcomeToDerry/assets/img/it-mobile-dark.png);
+    }
+
+    .title.active{
+        width: 320px;
+        height: 120px;
+        top: -250px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .navbar img{
+        width: 90px;
+    }
+
+    .section-1 .pennywise-desktop{
+        top: 79px;
+        opacity: 1;
+    }
+
+    .section-1 .title{
+        width: 500px;
+        height: 170px;
+        bottom: -70px;
+    }
+
+    .section-1 .arrow-donw{
+        display: none;
+    }
+
+    .section-2 iframe{
+        position: relative;
+        top: -15px;  
+        width: 690px;
+        height: 420px;
+    }
+
+    .jorge{
+        top: -60px;
+    }
+
+    /* ----- DARK MODE -----*/
+    .section-1.active{
+        background-image: url(/projeto_welcomeToDerry/assets/img/it-dark-desktop.png);
+    }
+
+    .title.active{
+        top: -230px;
+        width: 480px;
+        height: 170px;
+    }
+
+    .section-1 .arrow-donw{
+        /* top: 250px; */
+        display: none;
+    }
+
+    .section-2 iframe{
+        top: -35px;  
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-1 .title{
+        bottom: -100px;
+        width: 500px;
+        height: 180px;
+    }
+    
+    .section-1 .arrow-donw{
+        display: flex;
+        top: -20px;
+        right: 0;
+    }
+
+    .section-2 iframe{
+        position: relative;
+        top: 60px;  
+        width: 900px;
+        height: 500px;
+    }
+
+    .jorge{
+        top: -10px;
+    }
+
+    /* ----- DARK MODE -----*/
+    .section-1.active{
+        background-image: url(/projeto_welcomeToDerry/assets/img/it-dark-desktop.png);
+        background-repeat: no-repeat;
+    }
+
+    .title.active{
+        width: 490px;
+        height: 170px;
+        top: -250px;
+    }
+
+    .arrow-donw.active{
+        padding: 5px;
+        top: 250px;
+    }
+
+    .section-2.active iframe{
+        top: -35px;  
+    }
+
+    .jorge.active{
+        top: -100px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .section-2 iframe{
+        width: 1200px;
+        height: 650px;
+    }
+    .section-1.active{
+        /* background-image: url(/projeto_welcomeToDerry/assets/img/IT-DARK-desktop3.png); */
+    }
+    
+}

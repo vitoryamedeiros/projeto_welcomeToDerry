@@ -1,0 +1,64 @@
+.change-theme{
+    width: 60px;
+    height: 30px;
+    border: 2px solid var(--body-color);
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.change-theme:before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #a70000;
+    border-radius: 50%;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    transition-duration: .4s;
+}
+
+.change-theme.active:before{
+    left: 30px;
+    transition-duration: .4s;
+}
+
+.active:root {
+    --body-bg: #000000;
+    --body-color: #fff;
+    --body-color-hover: #700000;
+}
+
+.pennywise.active{
+    display: none;
+}
+
+.navbar.active{
+    background-color: #000000;   
+}
+
+.section-1.active{
+    background-image: url(/projeto_welcomeToDerry/assets/img/it-dark-desktop.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.title.active{
+    width: 500px;
+    height: 150px;
+    /* position: relative; */
+    top: -335px;
+}
+
+.arrow-donw.active{
+    padding: 5px;
+    top: 310px;
+}
+
+.section-2.active{
+    background-color: #000;   
+}
+
+
