@@ -22,9 +22,9 @@
     }
 
     .section-1 .title{
-        width: 370px;
-        height: 150px;
-        top: 10px;
+        width: 320px;
+        height: 120px;
+        top: -20px;
     }
 
     .pennywise-desktop{
@@ -88,7 +88,7 @@
     }
 
     .section-1 .pennywise-desktop{
-        top: 79px;
+        top: 86px;
         opacity: 1;
     }
 
@@ -120,8 +120,8 @@
 
     .title.active{
         top: -230px;
-        width: 480px;
-        height: 170px;
+        width: 500px;
+        height: 160px;
     }
 
     .section-1 .arrow-donw{
@@ -170,10 +170,10 @@
         top: -250px;
     }
 
-    .arrow-donw.active{
+    /* .arrow-donw.active{
         padding: 5px;
         top: 250px;
-    }
+    } */
 
     .section-2.active iframe{
         top: -35px;  
@@ -189,8 +189,23 @@
         width: 1200px;
         height: 650px;
     }
+    
     .section-1.active{
-        /* background-image: url(/projeto_welcomeToDerry/assets/img/IT-DARK-desktop3.png); */
+        background-image: url(/projeto_welcomeToDerry/assets/img/png\ dark.png);
+        position: relative;
+        right: -80px;
+    }
+
+    .title.active{
+        width: 500px;
+        height: 150px;
+        top: -270px;
+        right: 60px;
+    }
+
+    .arrow-donw.active{
+        top: 320px;
+        right: 40px;
     }
     
 }

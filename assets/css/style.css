@@ -21,6 +21,7 @@
 
 body{
     font-family: 'it-fonte2';
+    background-color: #000;
 }
 
 .navbar{
@@ -113,7 +114,7 @@ body{
 
 .section-2 iframe{
     border: 5px solid #b60000;
-    top: 10px;  
+    /* top: 10px;   */
 }
 
 .jorge{

@@ -40,7 +40,7 @@
 }
 
 .section-1.active{
-    background-image: url(/projeto_welcomeToDerry/assets/img/it-dark-desktop.png);
+    background-image: url(/projeto_welcomeToDerry/assets/img/it-png-dark.png);
     justify-content: center;
     align-items: center;
 }
@@ -59,6 +59,7 @@
 
 .section-2.active{
     background-color: #000;   
+    padding-top: 150px;
 }
 
 
