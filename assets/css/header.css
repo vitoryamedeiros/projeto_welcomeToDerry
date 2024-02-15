@@ -10,7 +10,7 @@
     flex-direction: row;
     position: fixed;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
     /* background-color: #DDE8EA; */
     background-color: transparent;
@@ -45,4 +45,5 @@
 .navbar img{
     width: 110px;
     padding-right: 30px;
+    /* position: absolute; */
 }

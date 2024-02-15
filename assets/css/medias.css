@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 320px) {
 
     /* ----- LIGHT MODE -----*/
     .navbar{
@@ -52,7 +52,7 @@
     .section-2 iframe{
         position: relative;
         top: -70px;  
-        width: 390px;
+        width: 290px;
         height: 230px;
     }
 
