@@ -1,7 +1,7 @@
 
 .active:root {
     --body-bg: #000000;
-    --body-color: #fff;
+    --body-color: #a40000;
     --body-color-hover: #700000;
 }
 
@@ -14,12 +14,18 @@
     cursor: pointer;
 }
 
+.change-theme.active{
+    background-color: #000000;
+    border: 2px solid #fff;
+}
+
+
 .change-theme:before{
     content: '';
     position: absolute;
     width: 25px;
     height: 25px;
-    background-color: #a70000;
+    background-color: var(--body-color);
     border-radius: 50%;
     top: 50%;
     left: 0px;
@@ -30,6 +36,7 @@
 .change-theme.active:before{
     left: 30px;
     transition-duration: .4s;
+    background-color: #ffffff;
 }
 
 .pennywise.active{
@@ -43,8 +50,8 @@
 
 
 .title.active{
-    width: 500px;
-    height: 150px;
+    width: 400px;
+    height: 130px;
     top: -140px;
 }
 
