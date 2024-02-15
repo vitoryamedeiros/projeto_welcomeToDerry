@@ -1,0 +1,57 @@
+
+:root {
+    --body-bg: #DDE8EA;
+    --body-color: #cc0000;
+    --body-color-hover: #700000;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 675px;
+    background-color: var(--body-bg);
+}
+
+.section-1 .title{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 180px;
+}
+
+.section-1 .pennywise-desktop{
+    max-width: 900px;
+    width: 100vw;
+    position: relative;
+    /* bottom: 780px; */
+    opacity: .75;
+    transition: opacity .65s ease-in-out;
+}
+
+/* .paralax{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0,0.448)), url(/projeto_coffeeshop/assetss/img/coffee_shop-transformed.jpeg);
+    opacity: 0.76;
+    backdrop-filter:unset;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.pennywise-desktop:hover {
+    opacity: 1;
+}
+
+.pennywise-mobile{
+    display: none;
+    width: 400px;
+}
+
+.section-1 .arrow-donw{
+    position: relative;
+    top: -79px;  
+    right: 20px; 
+}

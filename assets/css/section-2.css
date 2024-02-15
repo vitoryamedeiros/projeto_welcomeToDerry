@@ -1,0 +1,25 @@
+
+:root {
+    --body-bg: #DDE8EA;
+    --body-color: #cc0000;
+    --body-color-hover: #700000;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-bg);
+    padding-top: 90px;
+}
+
+.section-2 iframe{
+    border: 5px solid #b60000;
+    width: 1500px;
+    height: 650px;
+}
+
+.jorge{
+    position: relative;
+}

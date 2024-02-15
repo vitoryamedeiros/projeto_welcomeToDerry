@@ -1,0 +1,27 @@
+@font-face {
+    font-family: it-fonte;
+    src: url(/projeto_welcomeToDerry/assets/fonte/it-fonte.ttf);
+}
+
+@font-face {
+    font-family: it-fonte2;
+    src: url(/projeto_welcomeToDerry/assets/fonte/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-bg: #DDE8EA;
+    --body-color: #cc0000;
+    --body-color-hover: #700000;
+}
+
+body{
+    font-family: 'it-fonte2';
+    background-color: #000;
+}
+
+
