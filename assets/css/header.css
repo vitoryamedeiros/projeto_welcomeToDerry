@@ -26,9 +26,9 @@
 
 .nav-text:hover{
     cursor: pointer;
-    color: var(--body-color-hover);
-    font-size: 1.3rem;
-    /* transition-duration: .8s; */
+    color: #910000;
+    font-size: 1.25rem;
+    transition-duration: .8s;
 }
 
 .navbar ul{

@@ -6,7 +6,7 @@
     }
 
     .nav-text{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .navbar img{
@@ -47,8 +47,8 @@
     .section-2 iframe{
         position: relative;
         top: -82px;  
-        width: 300px;
-        height: 200px;
+        width: 310px;
+        height: 175px;
     }
 
     .jorge{
