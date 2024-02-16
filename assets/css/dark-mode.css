@@ -39,7 +39,7 @@
     background-color: #ffffff;
 }
 
-.pennywise.active{
+.pennywise-white.active{
     display: none;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .arrow-donw.active{
-    top: 330px;
+    top: 260px;
 }
 
 .section-2.active{

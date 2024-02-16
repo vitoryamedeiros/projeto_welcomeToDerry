@@ -8,11 +8,12 @@
 .navbar{
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: absolute;
     justify-content: space-between;
     /* width: 100%; */
     padding: 20px;
-    /* background-color: #DDE8EA; */
+    right: 0px;
+    background-color: #DDE8EA;
     background-color: transparent;
 }
 
@@ -27,7 +28,7 @@
     cursor: pointer;
     color: var(--body-color-hover);
     font-size: 1.3rem;
-    transition-duration: .8s;
+    /* transition-duration: .8s; */
 }
 
 .navbar ul{
