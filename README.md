@@ -5,7 +5,7 @@
 - HTML
 - CSS
 - JAVASCRIPT
-### 📍 Images de Preview
+### 📍 Imagens de Preview
 #### 📱 Mobile Version
 ![mobilep](https://github.com/vitoryamedeiros/projeto_welcomeToDerry/assets/110641657/426bad3c-75ca-41aa-8128-1520d5deebcc)
 
