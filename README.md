@@ -1,5 +1,5 @@
 # Projeto Welcome To Derry
-## Landing Page criada para simular a divulgacao do trailer da serie "Welcome to Derry", prodduzida pela HBO MAX.
+## Landing Page responsiva criada para simular a divulgacao do trailer da serie "Welcome to Derry", prodduzida pela HBO MAX.
 ### Veja como ficou o site: https://vitoryamedeiros.github.io/projeto_welcomeToDerry/
 ### Images de Preview
 #### Mobile Version
